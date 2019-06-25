@@ -1,0 +1,29 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header/>
+  <soap:Body>
+      <request>
+         <!--Optional:-->
+         <billNumber>BCOM/GC/1167/16/17</billNumber>
+         <!--Optional:-->
+         <billAmount>30000</billAmount>
+         <!--Optional:-->
+         <customerRefNumber>BCOM/GC/1167/16/17</customerRefNumber>
+         <!--Optional:-->
+         <bankreference>201706155468226</bankreference>
+         <!--Optional:-->
+         <paymentMode>cash</paymentMode>
+         <!--Optional:-->
+         <transactionDate>2017-06-15 00:00:00</transactionDate>
+         <!--Optional:-->
+         <phonenumber>null</phonenumber>
+         <!--Optional:-->
+         <debitaccount>null</debitaccount>
+         <!--Optional:-->
+         <debitcustname>BCOM/GC/1167/16/17</debitcustname>
+         <!--Optional:-->
+         <username>Equity</username>
+         <!--Optional:-->
+         <password>3pn!Ty@zoi9</password>
+      </request>
+   </soap:Body>
+</soap:Envelope>

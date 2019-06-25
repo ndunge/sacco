@@ -1,0 +1,29 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header/>
+  <soap:Body>
+      <request>
+         <!--Optional:-->
+         <billNumber>BSCCS/GC/041/16/17</billNumber>
+         <!--Optional:-->
+         <billAmount>80500</billAmount>
+         <!--Optional:-->
+         <customerRefNumber>BSCCS/GC/041/16/17</customerRefNumber>
+         <!--Optional:-->
+         <bankreference>201707125464320</bankreference>
+         <!--Optional:-->
+         <paymentMode>cash</paymentMode>
+         <!--Optional:-->
+         <transactionDate>2017-07-12 00:00:00</transactionDate>
+         <!--Optional:-->
+         <phonenumber>null</phonenumber>
+         <!--Optional:-->
+         <debitaccount>null</debitaccount>
+         <!--Optional:-->
+         <debitcustname>BSCCS/GC/041/16/17</debitcustname>
+         <!--Optional:-->
+         <username>Equity</username>
+         <!--Optional:-->
+         <password>3pn!Ty@zoi9</password>
+      </request>
+   </soap:Body>
+</soap:Envelope>

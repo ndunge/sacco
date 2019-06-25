@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+		<soapenv:Header/>
+		<soapenv:Body>
+		<CBAPaymentNotificationRequest>
+			<User>CBA35</User>
+			<Password>Ug@l!Moto</Password>
+			<HashVal>NWYwNGMwMjAxZjhiMWQ2MjE3YWQ1NDBkNDhhMWFjMTQ1MDFiNDBhZjM4MmVlZWUzNDRkOWNlOWViNTkxNmJlYg==</HashVal>
+			<TransType>Pay Bill</TransType>
+			<TransID>JK2NLJVA18</TransID>
+			<TransTime>20151102200912</TransTime>
+			<TransAmount>100.00</TransAmount>
+			<AccountNr>880100</AccountNr>
+			<Narrative>1000011</Narrative>
+			<PhoneNr>254725629786</PhoneNr>
+			<CustomerName>JOHN DOE</CustomerName>
+			<Status>SUCCESS</Status>
+		</CBAPaymentNotificationRequest>
+		</soapenv:Body>
+		</soapenv:Envelope>

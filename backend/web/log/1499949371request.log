@@ -1,0 +1,29 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header/>
+  <soap:Body>
+      <request>
+         <!--Optional:-->
+         <billNumber>1030219</billNumber>
+         <!--Optional:-->
+         <billAmount>79500</billAmount>
+         <!--Optional:-->
+         <customerRefNumber>1030219</customerRefNumber>
+         <!--Optional:-->
+         <bankreference>2017071354111346</bankreference>
+         <!--Optional:-->
+         <paymentMode>cash</paymentMode>
+         <!--Optional:-->
+         <transactionDate>2017-07-13 00:00:00</transactionDate>
+         <!--Optional:-->
+         <phonenumber>null</phonenumber>
+         <!--Optional:-->
+         <debitaccount>null</debitaccount>
+         <!--Optional:-->
+         <debitcustname>1030219</debitcustname>
+         <!--Optional:-->
+         <username>Equity</username>
+         <!--Optional:-->
+         <password>3pn!Ty@zoi9</password>
+      </request>
+   </soap:Body>
+</soap:Envelope>

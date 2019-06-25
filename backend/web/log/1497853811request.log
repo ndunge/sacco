@@ -1,0 +1,29 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header/>
+  <soap:Body>
+      <request>
+         <!--Optional:-->
+         <billNumber>BED/GC/455/15/16</billNumber>
+         <!--Optional:-->
+         <billAmount>10000</billAmount>
+         <!--Optional:-->
+         <customerRefNumber>BED/GC/455/15/16</customerRefNumber>
+         <!--Optional:-->
+         <bankreference>201706195427566</bankreference>
+         <!--Optional:-->
+         <paymentMode>cash</paymentMode>
+         <!--Optional:-->
+         <transactionDate>2017-06-19 00:00:00</transactionDate>
+         <!--Optional:-->
+         <phonenumber>null</phonenumber>
+         <!--Optional:-->
+         <debitaccount>null</debitaccount>
+         <!--Optional:-->
+         <debitcustname>BED/GC/455/15/16</debitcustname>
+         <!--Optional:-->
+         <username>Equity</username>
+         <!--Optional:-->
+         <password>3pn!Ty@zoi9</password>
+      </request>
+   </soap:Body>
+</soap:Envelope>

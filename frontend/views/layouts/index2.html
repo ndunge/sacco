@@ -1,0 +1,130 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>Verge SACCO (Online Portal)::Chai SACCO</title>
+
+		<meta name="description" content="User login page" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<link rel="icon"  type="image/x-icon" href="/smartchai/vresources/images/favicon.ico" />
+
+		<!-- bootstrap & fontawesome -->
+		
+		<link rel="stylesheet" href="/smartchai/vresources/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/smartchai/vresources/css/font-awesome.min.css" />
+
+		<!-- text fonts -->
+		<link rel="stylesheet" href="/smartchai/vresources/css/ace-fonts.css" />
+
+		<!-- ace styles -->
+		<link rel="stylesheet" href="/smartchai/vresources/css/ace.min.css" />
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="/smartchai/vresources/css/ace-part2.min.css" />
+		<![endif]-->
+		<link rel="stylesheet" href="/smartchai/vresources/css/ace-rtl.min.css" />
+
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="/smartchai/vresources/css/ace-ie.min.css" />
+		<![endif]-->
+		<link rel="stylesheet" href="/smartchai/vresources/css/ace.onpage-help.css" />
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="/smartchai/vresources/js/js/html5shiv.min.js"></script>
+		<script src="/smartchai/vresources/js/js/respond.min.js"></script>
+		<![endif]-->
+
+	    <!-- FOR LOGIN RECAPTURE -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+	</head>
+
+	<body class="no-skin">
+	<div class="container">
+    <div class="row">
+		<div class="col-md-4 col-md-offset-4">
+			<div class="space-6" style="margin-top:80px"></div>
+    		<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<h3 class="panel-title">Please sign in</h3>
+			 	</div>
+			  	<div class="panel-body">
+			  		<div class="center">
+			  		<h5 class="green">VERGE SACCO (Online Portal) </h5>
+					<img src="/smartchai/vresources/images/logo-chai.png" height="200" width="206" border="1px" alt="Your Photo" />
+			  		</div>
+					<div class="space-6"></div>
+					<div class="space-6"></div>
+					<span class="red">
+						<br/>
+	      				
+       				</span>
+					<div class="space-6"></div>
+			    	<form accept-charset="UTF-8" role="form" action="j_spring_security_check" method="POST">
+                    <fieldset>
+			    	  	<div class="form-group">
+			    		    <input class="form-control" placeholder="Username" name="j_username" type="password">
+			    		</div>
+			    		<div class="form-group">
+			    			<input class="form-control" placeholder="Password" name="j_password" type="password" value="">
+			    		</div>
+                        <div class="g-recaptcha" data-sitekey="6LdWxiQTAAAAAKSJJJ4OpGNoZaq5O9dLIi7USdOv"></div>
+			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+						<div class="space-6"></div>
+			    		<a href="/smartchai/register/new">Register</a>
+			    	</fieldset>
+			      	</form>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>	<script type="text/javascript">
+		</script>
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='"+'/smartchai/vresources/js/jquery.min.js'+"'>"+"<"+"/script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='"+'/smartchai/vresources/js/jquery1x.min.js'+"'>"+"<"+"/script>");
+</script>
+<![endif]-->
+		<script type="text/javascript"> 
+			if('ontouchstart' in document.documentElement) document.write("<script src='"+'/smartchai/vresources/js/jquery.mobile.custom.min.js'+"'>"+"<"+"/script>");
+		</script>
+
+		<!-- inline scripts related to this page -->
+		<script type="text/javascript">
+			jQuery(function($) {
+			 $(document).on('click', '.toolbar a[data-target]', function(e) {
+				e.preventDefault();
+				var target = $(this).data('target');
+				$('.widget-box.visible').removeClass('visible');//hide others
+				$(target).addClass('visible');//show target
+			 });
+			 
+			 $('#submit-form').on('click', function(e) {
+					$("#idFrmLogin").submit();
+					
+				 });			 
+			 
+			 
+			 
+			});
+			
+		</script>
+	</body>
+</html>
